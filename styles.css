@@ -1,0 +1,23 @@
+.popup-container {
+    width: 300px; /* Set the width of the popup */
+    height: 130px; /* Set the height of the popup */
+    background-color: #fff; /* Set the background color of the popup */
+    border: 2px solid #000; /* Set the border of the popup */
+    padding: 10px; /* Set padding inside the popup */
+  }
+.richarlison-gif{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    left: 200px;
+    bottom: 5px;
+    display: none;
+}
+button{
+    color : red;
+    position: absolute;
+    margin-top: -5px;
+}
+.timer{
+    margin-top: 40px;
+}
