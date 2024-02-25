@@ -1,23 +1,79 @@
 .popup-container {
     width: 300px; /* Set the width of the popup */
-    height: 130px; /* Set the height of the popup */
-    background-color: #fff; /* Set the background color of the popup */
-    border: 2px solid #000; /* Set the border of the popup */
+    height: 140px; /* Set the height of the popup */
+    background-color: rgb(43, 43, 142); /* Set the background color of the popup */
+    border: 2px solid black; /* Set the border of the popup */
     padding: 10px; /* Set padding inside the popup */
   }
-.richarlison-gif{
+@font-face {
+    font-family: asteroids;
+    src: "asteroids.otf";
+ }
+.title{
+    text-align: center;
+    color: white;
+    font-family: copperplate, "Comic Sans MS", sans-serif;
+    font-size: 20;
+}
+.son-celebration{
     width: 70px;
-    height: 70px;
+    height: 50px;
     position: fixed;
-    left: 200px;
-    bottom: 5px;
+    bottom: 95px;
+    display: none;
+    /* border: 2px solid black; */
+}
+.richarlison-pombo{
+    width: 70px;
+    height: 50px;
+    position: fixed;
+    left: 230px;
+    bottom: 95px;
     display: none;
 }
 button{
-    color : red;
+    background-image : linear-gradient(to right, blue, purple);
+    color: white;
+    left: 110px;
     position: absolute;
-    margin-top: -5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 40%;
+    height: 40px;
+    width: 100px;
+    border-color: white;
+    font-family: copperplate, "Comic Sans MS", sans-serif;
+}
+button:hover{
+    transform: scale(1.2);
 }
 .timer{
-    margin-top: 40px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 32;
+    font-family: copperplate, "Comic Sans MS", sans-serif;
+}
+.description{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-family: copperplate, "Comic Sans MS", sans-serif;
+    font-size: 12;
+}
+.logo-animation{
+    height: 50px;
+    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    display: none;
+}
+#bentancur{
+    height: 50px;
+    width: 70px;
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    display: none;
 }
